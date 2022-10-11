@@ -1,0 +1,28 @@
+class main  
+{ public main
+  
+    public static void main {string[] args) {
+        printone();
+        printone();
+        printtwo();
+        //create a file object for the current location
+        file devfile=new file("deployment.java");
+        try(
+		//trying to create a file based on the object
+		boolean value=file.createNewfile();
+		if(value){
+		     system.out.println("the new file is created");
+		}
+		else
+		(
+        system.out.println("fil already exists")
+    }
+    public static void printone() {
+		system.out.println("hello world");
+	}	
+
+  public static void printtwo() {
+	     printone();
+		 printone();
+  }	 
+}  
