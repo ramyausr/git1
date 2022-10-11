@@ -21,8 +21,6 @@
 		system.out.println("hello world");
 	}	
 
-  public static void printtwo() {
-	     printone();
-		 printone();
+  
   }	 
 }  
